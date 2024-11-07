@@ -1,10 +1,10 @@
-import { useState } from "react";
+// import { useState } from "react";
 import CartList from "./components/CartList";
 import ProductListing from "./components/ProductListing";
 import { products } from "./data";
 
 const Home = () => {
-  const [product, setProduct] = useState([]);
+  // const [product, setProduct] = useState([]);
 
   return (
     <section className="mb-8 pt-8 lg:mb-0">
